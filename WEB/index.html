@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title>Pumpkin</title>
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo">
-                <a href="#">
-                    <span>LOGO</span>
-                    <img src="./assets/img/pumpkin.svg" alt=" ">
-                </a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#">Main</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Recipes</a></li>
-                    <li><a href="#">Price</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="contact-icons">
-                <a href="#"><img src="./assets/img/instagram.svg" alt=" "></a>
-                <a href="#"><img src="./assets/img/telegram.svg" alt=" "></a>
-                <a href="#"><img src="./assets/img/twitter.svg" alt=" "></a>
-            </div>
-        </header>
+        
         <div class="hero-section">
-            <img src="./assets/img/background.png" alt=" ">
+            <img class="bgp" src="./assets/img/background.png" alt=" ">
+            <header>
+                <div class="logo">
+                    <a href="#">
+                        <span>PUMPKIN</span>
+                        <img src="./assets/img/pumpkin.svg" alt=" ">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="contact-icons">
+                    <a class="contact-icon" href="#"><img src="./assets/img/instagram.svg" alt=" "></a>
+                    <a class="contact-icon" href="#"><img src="./assets/img/telegram.svg" alt=" "></a>
+                    <a class="contact-icon" href="#"><img src="./assets/img/twitter.svg" alt=" "></a>
+                </div>
+            </header>
+
             <div class="content">
-                <h1>BEST PUMPKIN IN UKRAINE</h1>
-                <p>raised with love and passion</p>
+                <h1 class="header-h1">BEST PUMPKIN IN UKRAINE</h1>
+                <p class="header-p">raised with love and passion</p>
                 <button>Order</button>
             </div>
+
         </div>
         <div class="features-section">
             <div class="features">
@@ -45,7 +54,7 @@
                         <img src="./assets/img/variety.svg" alt=" ">
                         <h4>Variety</h4>
                     </div>
-                    <p>
+                    <p class="feature-p">
                         Our farm has the greatest range of pumpkin types
                     </p>
                 </div>
@@ -54,7 +63,7 @@
                         <img src="./assets/img/health.svg" alt=" ">
                         <h4>Nutrients</h4>
                     </div>
-                    <p>
+                    <p class="feature-p">
                         Our pumpkins contain the largest amount of vitamins
                     </p>
                 </div>
@@ -63,49 +72,61 @@
                         <img src="./assets/img/grace.svg" alt=" ">
                         <h4>Aesthetics</h4>
                     </div>
-                    <p>
+                    <p class="feature-p">
                         Our pumpkins won the competition as the most graceful in Ukraine
                     </p>
                 </div>
             </div>
            <div class="pumpkin-types">
                 <div class="pumpkin-types-left">
-                    <h4>Different types of pumpkins hidden their own secrets</h4>
+                    <h4 class="feature-h4">Different types of pumpkins hidden their own secrets</h4>
                     <p>It’s scientifically proven that different types of pumpkins have different chemical structure and unique properties</p>
                 </div>
                 <div class="pumpkin-types-right">
-                    <img src="./assets/img/pumpkin1.png" alt=" ">
-                    <img src="./assets/img/pumpkin2.png" alt=" ">
-                    <img src="./assets/img/pumpkin3.png" alt=" ">
+                    <img class="types-img" src="./assets/img/pumpkin1.png" alt=" ">
+                    <img class="types-img" src="./assets/img/pumpkin2.png" alt=" ">
+                    <img class="types-img" src="./assets/img/pumpkin3.png" alt=" ">
                 </div>
            </div>
            <hr>
         </div>
         <div class="social-proof-section">
             <div class="review">
-                <p>“These pumpkins are magnificent! I’ve never seen anything like these”</p>
-                <p>Annie Leonhart</p>
-                <img src="./assets/img/person1.png" alt=" ">
+                <p class="review-p">“These pumpkins are magnificent! I’ve never seen anything like these”</p>
+                <p class="reviewer-name">Annie Leonhart</p>
+                <img class="review-img" src="./assets/img/person1.png" alt=" ">
             </div>
             <div class="review">
-                <p>“It’s fantastic! They are wonderful for my Helloween photos!”</p>
-                <p>Alan Watson</p>
-                <img src="./assets/img/person2.png" alt=" ">
+                <p class="review-p">“It’s fantastic! They are wonderful for my Helloween photos!”</p>
+                <p class="reviewer-name">Alan Watson</p>
+                <img class="review-img" src="./assets/img/person2.png" alt=" ">
             </div>
         </div>
         <footer>
             <div class="footer-content">
-                <h1>FALL IS CALLING</h1>
-                <h3>Pumpkins are coming to You</h3>
+                <h1 class="footer-h1">FALL IS CALLING</h1>
+                <h3 class="footer-h3">Pumpkins are coming to You</h3>
                 <button>Order</button>
             </div>
-            <div class="footer-contacts">
-                <span>Phone number: </span>
-                <a href="tel:380991392989">+380991392989</a>
-            </div>
-            <div class="footer-logo">
-                <span>LOGO</span>
-                <img src="./assets/img/pumpkin.svg" alt=" ">
+            <div class="ending">
+                <div class="footer-contacts">
+                    <span>Phone number: </span>
+                    <a href="tel:380991392989">+380991392989</a>
+                </div>
+                <div class="footer-logo">
+                    <span>PUMPKIN</span>
+                    <img src="./assets/img/pumpkin.svg" alt=" ">
+                </div>
+
+                <nav class="footer-nav">
+                    <ul class="footer-nav-ul">
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </footer>
     </div>
